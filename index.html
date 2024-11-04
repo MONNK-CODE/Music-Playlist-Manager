@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1>Welcome to Your Music Playlist</h1>
+    <i class="fas fa-arrow-down" onclick="scrollToPlaylist()"></i>
+</header>
+
+<main>
+    <section id="playlist">
+        <h2>Your Playlist</h2>
+        <div class="playlist-header">
+            <span><i class="fas fa-music"></i> Song</span>
+            <span><i class="fas fa-user"></i> Artist</span>
+            <span><i class="fab fa-youtube"></i> Video</span>
+            <span><i class="fas fa-cog"></i> Actions</span>
+        </div>
+        <div id="playlistContainer"></div>
+    </section>
+
+    <section id="add-song-form">
+        <label for="songName">Song Name (optional)</label>
+        <input type="text" id="songName" placeholder="Enter song name">
+
+        <label for="artistName">Artist Name (optional)</label>
+        <input type="text" id="artistName" placeholder="Enter artist name">
+
+        <label for="youtubeLink">YouTube Link</label>
+        <input type="url" id="youtubeLink" placeholder="Paste YouTube link here">
+
+        <button onclick="addSong()"><i class="fas fa-plus-circle"></i> Add Song</button>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

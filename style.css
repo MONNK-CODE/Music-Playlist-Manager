@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#playlist h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.playlist-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.song-entry {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.song-entry .action-buttons {
+    display: flex;
+    gap: 4px; /* Reduce space between the buttons */
+}
+
+.song-entry button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+   /*  margin: 0.3rem; !* Remove margin for buttons *!*/
+    /*    border-radius: 3rem;*/
+    /*    cursor: pointer;*/
+}
+
+.song-entry button:hover {
+    background-color: #357ABD;
+}
+
+
+.song-entry input.editable {
+    width: 120px;
+    border: none;
+    background: none;
+}
+
+.song-entry input.editable.editing {
+    background: #e0f7fa; /* Change background color when editing */
+
+}
+
+.song-entry iframe {
+    width: 200px;
+    height: 100px;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3rem;
+    margin: 0;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+#add-song-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+#add-song-form input,
+#add-song-form button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#add-song-form button i {
+    margin-right: 5px;
+}
