@@ -60,7 +60,7 @@ async function addSong() {
     songEntry.innerHTML = `
     <input type="text" class="editable" value="${songName}" readonly />
     <input type="text" class="editable" value="${artistName}" readonly />
-    <iframe src="${embedURL}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="${embedURL}" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     <div class="action-buttons">
       <button onclick="enableEdit(this)"><i class="fas fa-edit"></i> Edit</button>
       <button onclick="deleteSong(this)"><i class="fas fa-trash-alt"></i> Delete</button>
