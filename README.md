@@ -26,13 +26,6 @@ The Music Playlist Manager is built with HTML, CSS, and JavaScript, utilizing:
 - **noembed API** for retrieving song and artist information from YouTube links.
 - **JavaScript** for managing playlist entries, inline editing, and UI interactivity.
 
-### Core JavaScript Functions
-
-- **`addSong()`**: Validates YouTube links, retrieves song details if needed, and adds the entry to the playlist.
-- **`enableEdit()`**: Enables inline editing within the playlist table.
-- **`saveSong()`**: Saves edits to song details and locks fields back to read-only.
-- **`deleteSong()`**: Removes a song entry from the playlist.
-
 ## Credits
 
 This project was created with the assistance of AI for developing key functionalities, resolving coding challenges, and structuring documentation.
