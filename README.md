@@ -12,7 +12,6 @@ A dynamic web application that allows users to manage a personalized music playl
 - **Delete Functionality**: Remove any song entry from the playlist with a single click.
 - **Sleek, Desktop-Friendly UI**: The app has a user-friendly layout optimized for laptops and desktops, featuring Font Awesome icons for intuitive interaction.
 
-
 ## How to Use
 
 1. **Add a Song**: Enter a YouTube link, song name, and artist name, then click **Add**. If the song name or artist name is omitted, the app fetches these details automatically.
